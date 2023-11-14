@@ -17,6 +17,6 @@ private:
 public:
     modAlphaCipher()=delete;
     modAlphaCipher(const int& key) :newkey(key) {};
-    wstring coder(const wstring& open_st);
-    wstring decoder(const wstring& cipher_st);
+    wstring coder(const wstring& open_row);
+    wstring decoder(const wstring& cipher_row);
 };
